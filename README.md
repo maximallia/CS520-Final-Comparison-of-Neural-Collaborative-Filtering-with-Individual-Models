@@ -1,2 +1,9 @@
 # CS520-Final-Comparison-of-Neural-Collaborative-Filtering-with-Individual-Models
 Comparison of Neural Collaborative Filtering with Individual Models
+
+ABSTRACT
+The growth of the internet and the rise of platforms like Google and Netflix resulted in not only an enormous amount of data and information, but also a trend of striving for better and more efficient tools that allow users to filter the massive information and obtain a possible item that users would want to see. Thus, recommendation systems are experimented and utilized in many contexts through multiple models. One of recommendation system’s many context applications is the movie recommendation. Thus for this work, we will be focusing on implementing and analyzing the collaborative filtering.
+
+Collaborative filtering is the technique used to filter the versatile data in order to obtain a possible item that a user might like, hence the name ’recommendation’ system. Though there are multiple individual models explored and developed for the collaborative filtering, but the modeling of the key factor in collaborative filter is still resorted to the matrix factorization and apply an inner product on the latent features of users and movies. Thus the hybrid model known as the Neural Collaborative Filtering (NCF) framework was developed.
+
+The NCF model is the concatenation of two models: the Gen- eralized Matrix Factorization model (GMF) and the Multi-Layer Perceptron (MLP) model. Thus for this work, we will explore the popular individual collaborative filtering models, analyze the ef- fect of the item-item and user-user similarities on such models, and develop and experiment with the neural collaborative filtering model. The data and measures we obtained from implementing the collaborative filtering models and the NCF shows that the hybrid algorithm indeed have a better performance than the individual non-hybrid models.
